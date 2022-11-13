@@ -60,9 +60,7 @@ const useMapboxMap = ({
 
     map.current = new mapboxLibrary.Map({
       container: mapContainer.current,
-      style: isDarkMode()
-        ? 'mapbox://styles/mapbox/dark-v10'
-        : 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mazai/clafi3ivw001j14plua8e1wf8',
       ...mapboxOptions,
     })
 
